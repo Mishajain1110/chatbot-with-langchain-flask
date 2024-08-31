@@ -33,8 +33,8 @@ This repository contains a custom chatbot built using LangChain and Flask. The c
 2. Set the URL to: http://127.0.0.1:5000/chat
 3. In the `Body` tab, select `raw` and choose `JSON`.
 4. Use the following JSON format:
-```json
-{
+   ```json
+   {
     "user_input": "Your question here"
-}
+   }
 5. Hit Send and the chatbot will respond with the answer.
